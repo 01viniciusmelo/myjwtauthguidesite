@@ -38,8 +38,6 @@ class User extends Authenticatable implements JWTSubject
         'email_verified_at' => 'datetime',
     ];
 
-    // Rest omitted for brevity
-
     /**
      * Get the identifier that will be stored in the subject claim of the JWT.
      *
